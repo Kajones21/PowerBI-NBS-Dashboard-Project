@@ -22,5 +22,29 @@ The Newborn Screening (NBS) dashboard presents data on blood spot and critical c
 ### Dashboard Purpose
 The dashboard was created so providers could see how they compare against all state hospitals with the intention of encouraging quality improvement efforts based on whether they met the target for each metric.
 
-## Data and Schema
+## Summary of Project Overall
 
+I met with the data owners and subject matter experts to determine what the purpose of the dashboard was. During these meetings, we also determined what information the audience would like to see and what information would be most beneficial in helping healthcare staff target key problem areas. After this was determined, there were two stages of product design. Stage one resulted in the initial design of the dashboard layout, separation of data/metrics, and general theme. Stage two included refining the design, adding more clarity to target metric definitions, and creating documentation to ensure the smooth transition of the product into the customer's staff who would manage it.
+
+### Documentation: Highlighting Main Sections
+* Transforming/Updating the data using a pre-designed query in Power BI
+* Refreshing the data
+* Publishing the dashboard to Power BI Service
+
+## Data and Schema
+![The data model behind the newborn screening dashboard.](https://github.com/Kajones21/PowerBI-NBS-Dashboard-Project/blob/main/PBI_DataStructure_NBS.png
+"Newborn Screening Data Model")
+
+### Validation Checks
+* No duplicate submitter code
+* Ensured each column type was assigned based on necessary analysis
+* Data range only encompassed the past 4 quarters
+
+## Dashboard Screenshots
+![Screenshots of the dashboard.](https://github.com/Kajones21/PowerBI-NBS-Dashboard-Project/blob/main/NBS_PowerBI.pdf)
+
+
+## Technologies Used
+
+* Excel file
+* Power BI
